@@ -1,13 +1,7 @@
-const express = require('express');
-const app = express();
+const http = require('http');
 
-const PORT = 3000;
-
-// GET API route that says hello server
-app.get('/', (req, res) => {
-  res.send('hello server');
+const server = http.createServer((req, res) => {
+    res.end('Hello Server');
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
-});
+server.listen(3000);
