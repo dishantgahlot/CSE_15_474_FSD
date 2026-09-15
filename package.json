@@ -1,5 +1,25 @@
 {
   "dependencies": {
-    "express": "^5.2.1"
-  }
+    "express": "^5.2.1",
+    "graphql": "^17.0.2"
+  },
+  "name": "cse_15_474_fsd",
+  "version": "1.0.0",
+  "description": "This repository consists of all the experiments of my B.tech semester 3 FSD.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node experiment-3/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dishantgahlot/CSE_15_474_FSD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dishantgahlot/CSE_15_474_FSD/issues"
+  },
+  "homepage": "https://github.com/dishantgahlot/CSE_15_474_FSD#readme"
 }
